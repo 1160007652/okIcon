@@ -16,7 +16,9 @@
     "okicon",
     "Icon"
   ],
-  "author": "muniz https://github.com/1160007652",
+  "author": "https://github.com/1160007652",
+  "readme": "使用手册 https://github.com/1160007652/okIcon/blob/master/README.md",
+  "readmeFileame": "README.md",
   "license": "ISC",
   "dependencies": {
     "chalk": "^2.4.1",
