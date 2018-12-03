@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "阿里 iconfont 自动下载文件助手",
   "main": "./src/index.js",
+  "git repository": "https://github.com/1160007652/okIcon",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,7 +13,8 @@
   "keywords": [
     "iconfont",
     "阿里",
-    "okicon"
+    "okicon",
+    "Icon"
   ],
   "author": "muniz",
   "license": "ISC",
