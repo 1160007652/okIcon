@@ -14,11 +14,11 @@ const configPath = `${__dirname}/../config.ini`;
 
 program.version('1.0.0', '-v, --version')
     .option('-i, --init', '初始化配置文件')
-    .option('-d, --download', '下载iconfont文件');
+    .option('-d, --download', '下载iconfont文件')
+    .description('自动下载IconFont助手');
 
 program.on('--help', function(){
     console.log('\n-------------------------------------\n');
-    console.log('自动下载iconfont助手\n');
     console.log('先使用 okIcon -i 进行初始化\n');
     console.log("后续iconfont的改动，使用 okIcon -d 进行下载\n");
 });
