@@ -1,0 +1,11 @@
+/node_modules
+/temp
+
+.DS_Store
+.idea
+.vscode
+
+*.lock
+*.log
+*.ini
+*.zip
