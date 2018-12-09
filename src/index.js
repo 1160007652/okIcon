@@ -84,8 +84,10 @@ function getIconfont() {
 
     // 同步从阿里获取 iconfont
     requestSync(configData.iconAddr, configData.iconCookies).then(()=>{
+
         // 解压iconfont configData.iconPath
         spawn.sync('tar', ['zxf', `${__dirname}/../iconfont.zip`, '-C', `${__dirname}/../temp`], { stdio: 'inherit' });
+        
         moveIconfont(configData.iconPath);
     });
     
@@ -117,7 +119,7 @@ function requestSync(url, cookies) {
             }else{
                 resolve(b);
             }
-        }).pipe(fs.createWriteStream('iconfont.zip'));
+        }).pipe(fs.createWriteStream(`${__dirname}/../iconfont.zip`));
     });
 }
 
